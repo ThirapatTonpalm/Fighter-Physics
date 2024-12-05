@@ -5,10 +5,10 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Motor control pins
-int motorPin1 = 2;  // IN1
-int motorPin2 = 3;  // IN2
-int motorPin3 = 4;  // IN3
-int motorPin4 = 5;  // IN4
+#define motorPin1 2 // IN1
+#define motorPin2 3 // IN2
+#define motorPin3 4 // IN3
+#define motorPin4 5 // IN4
 
 char currentCommand = 'S'; // Default to 'Stop'
 
